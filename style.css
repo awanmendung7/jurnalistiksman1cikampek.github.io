@@ -1,0 +1,93 @@
+  @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Playpen+Sans:wght@200;300;400&display=swap');
+p {
+    font-family: 'Agbalumo', cursive;
+}
+
+
+html {
+    padding: 0;
+    margin: 0;
+    justify-content: right;
+    padding: 1rem;
+}
+
+nav div h1 {
+        justify-content: left;
+}
+
+body {
+    background: #fef7ed;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 1rem;
+}
+
+ .nav-item {
+    position: relative;
+ }
+
+ .search-box {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+ }
+
+.search-box {
+    background: #f4efc3;
+    height: 18px;
+    padding: 7px 200px;
+    border-radius: 7px;
+    box-shadow: 10px 1px 10px rgba(0, 0, 0, .3);
+    border-style: solid;
+}
+
+.search-box{
+    display: flex;
+    justify-content: center;
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.search-box a {
+    color:black;
+}
+
+.animasi {
+    transition: all 0.1;
+    -webkit-transition: all 0.1;
+}
+
+svg{
+    margin-right: 10px;
+}
+.tombol-aktif {
+    padding: 10px 40px;
+    margin: 25px;
+    border-radius: 10px;
+    border-style: solid;
+    text-decoration: none;
+    background-color: #f4efc3;
+    color: black;
+    position: relative
+}
+img{
+    margin-top:1px;
+    margin-right:20px;
+    margin-bottom:20px;
+    margin-left:10px;
+    border-radius: 10px;
+}
